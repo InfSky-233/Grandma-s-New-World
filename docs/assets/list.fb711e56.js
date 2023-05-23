@@ -1,0 +1,1 @@
+import{r as t}from"./index.f23af169.js";const r={BaseList:"/get-list",CardList:"/get-card-list"};function e(){return t.get({url:r.BaseList})}function i(){return t.get({url:r.CardList})}export{i as a,e as g};

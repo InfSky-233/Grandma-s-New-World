@@ -1,0 +1,1 @@
+import{_,f as r,j as s,k as a,g as o}from"./index.c43e29e1.js";const t={},n={class:"tdesign-wrapper"};function c(d,l){const e=r("router-view");return o(),s("div",n,[a(e)])}var i=_(t,[["render",c],["__scopeId","data-v-082ee776"],["__file","C:/Users/admin/Desktop/Grandma's New World/src/layouts/blank.vue"]]);export{i as default};

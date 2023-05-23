@@ -12,7 +12,11 @@ const CWD = process.cwd();
 export default ({ mode }: ConfigEnv): UserConfig => {
   const { VITE_BASE_URL } = loadEnv(mode, CWD);
   return {
-    base: VITE_BASE_URL,
+    build: {
+      outDir: "docs"
+    },
+    
+    base: '/Grandma-s-New-World/',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, './src'),
